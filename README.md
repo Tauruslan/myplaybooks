@@ -1,2 +1,2 @@
-# myplaybooks
+# playbooks
 playbooks
