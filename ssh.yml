@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+  - name: Install ssh key
+    authorized_key:
+      user: centos
+      state: present
+      key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCcwM4+jOTiyamo8ImAYCTWD2433K+4/55za85uO1wfXAPwF5/HHsri9geSMN4xiqs/ilbg1jpcnGS/cQqBdumLXL9zE01LkOVCS8fK+2Od8lDPDc6RsoKuRzPq37jt8vJcJro8BGhR8iB9DvA5bJyzkAyGwjk+t7wFQcCZlujxC2EL938Socy5RWjiQX83sxdQrKirFlkw+4vpDuQnl+HAeM6x5OGwELcz/bQIjOTSAmcH8LJNCNnajRJRUn/RSSPxanjJgYSsoEhgQ/tLlByFiv89XYEvqs+s27jGGZx6GikAs5X17cgDG90I6Hw+D40ZFNPhgvGbB3UuRJ9R0aI62paltAdMQaSUKGIMOiRE+AyfqwSdfSatIpG5p1UGv0gZYwUhmq+xVw7HELXQkWKmhbBM/6Jo9z0VoElOxmU/Yl1dA44RZubxbDqXoHlyStrONlNvfZi+yXxTY/6FItjGg9y6urfnG4mVKoDfyZqLG5chYLhF7VUf0grgK7WED7k= abdul@DESKTOP-IOAHE04
